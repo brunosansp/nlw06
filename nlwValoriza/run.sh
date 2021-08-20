@@ -67,3 +67,9 @@ yarn add uuid
 
 # Instalando types para uuid
 yarn add @types/uuid -D
+
+# Instalando biblioteca para erros assíncronos
+yarn add express-async-errors
+
+# Criando migration de tags
+yarn typeorm migration:create -n CreateTags
